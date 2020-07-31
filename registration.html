@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+  background: #f1f1f1;
+}
+
+
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: indianred;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.cas{
+  background-color: #f1f1f1;
+  padding: 5px;
+  margin: 10px;
+  display: inline-block;
+  background: #f1f1f1;
+
+}
+</style>
+</head>
+<body>
+
+<form action="successregister.htm">
+  <div class="container">
+    <h2>Register</h2>
+    <hr>
+
+    <label for="email"><b>Name</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="email"><b>Roll Number</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="dep"><b>Choose branch:</b></label>
+      <select name="dep" id="dep" class="cas">
+        <option value="volvo">CSE</option>
+        <option value="saab">ECE</option>
+        <option value="opel">EEE</option>
+        <option value="audi">MECH</option>
+        <option>CIVI</option>
+      </select>
+      <br>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+    <br>
+
+    <button type="submit" class="registerbtn"  style="margin: 10px;">Register</button>
+  </div>
+</form>
+
+</body>
+</html>

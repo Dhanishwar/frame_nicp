@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/** {
+  box-sizing: border-box;
+}*/
+
+/* Add padding to containers */
+/*.container {
+  padding: 16px;
+  background-color: white;
+}*/
+
+/* Full-width input fields */
+/*input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+  background: #f1f1f1;
+}*/
+
+/*input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}*/
+
+
+/* Set a style for the submit button */
+/*.registerbtn {
+  background-color: indianred;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}*/
+
+</style>
+</head>
+<body>
+
+<form action="successregister.htm">
+  <div class="container">
+    <h2>Give your comments</h2>
+    <hr>
+
+    <label for="email"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" required>
+    <br><br>
+    <label for="email"><b>Roll Number</b></label>
+    <input type="text" placeholder="Enter roll number" required>
+
+    <br><br>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" required>
+    <br><br>
+
+    
+    <label for="email"><b>Enter your feedback</b></label>
+    <textarea rows = "5" cols = "60" name = "description">
+      Enter comments here
+    </textarea> 
+
+    <button type="submit" class="registerbtn" style="margin: 10px; color: indianred;">Register</button>
+  </div>
+</form>
+
+</body>
+</html>
